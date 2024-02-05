@@ -1,20 +1,52 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desemvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "price": 14000,
-            "createdAt": "2024-02-03T16:15:10.795Z"
-        },
-        {
-            "id": 2,
-            "description": "Hamburguer",
-            "type": "outcome",
-            "category": "Alimentação",
-            "price": 30,
-            "createdAt": "2024-02-03T13:15:10.795Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desemvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2024-02-03T16:15:10.795Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 60,
+      "createdAt": "2024-02-03T13:15:10.795Z"
+    },
+    {
+      "id": 3,
+      "description": "Ignite - Rocketseat",
+      "type": "outcome",
+      "category": "Estudo",
+      "price": 1980,
+      "createdAt": "2024-02-04T12:15:10.795Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-02-04T23:01:09.868Z",
+      "id": 4
+    },
+    {
+      "description": "Patel",
+      "price": 5,
+      "category": "Alimentação",
+      "type": "income",
+      "createdAt": "2024-02-04T23:31:37.474Z",
+      "id": 5
+    },
+    {
+      "description": "Coxinha de frango",
+      "price": 6,
+      "category": "Alimetação",
+      "type": "outcome",
+      "createdAt": "2024-02-04T23:34:01.974Z",
+      "id": 6
+    }
+  ]
 }
