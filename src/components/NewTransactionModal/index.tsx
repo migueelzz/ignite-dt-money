@@ -14,7 +14,7 @@ import {
 } from './styles'
 import { ArrowCircleDown, ArrowCircleUp, X } from 'phosphor-react'
 
-import { TransactionContext } from '../../contexts/TransactionsContext'
+import { TransactionsContext } from '../../contexts/TransactionsContext'
 import { useContextSelector } from 'use-context-selector'
 
 const newTransactionFormSchema = z.object({
@@ -28,7 +28,7 @@ type NewTransactionFormInputs = z.infer<typeof newTransactionFormSchema>
 
 export function NewTransactionModal() {
   const createTransaction = useContextSelector(
-    TransactionContext,
+    TransactionsContext,
     (context) => {
       return context.createTransaction
     },

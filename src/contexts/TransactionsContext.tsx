@@ -27,9 +27,9 @@ interface TransactionProviderProps {
   children: ReactNode
 }
 
-export const TransactionContext = createContext({} as TransactionContextType)
+export const TransactionsContext = createContext({} as TransactionContextType)
 
-export function TransactionProvider({ children }: TransactionProviderProps) {
+export function TransactionsProvider({ children }: TransactionProviderProps) {
   const [transactions, setTransactions] = useState<Transaction[]>([])
 
   const fetchTransactions = useCallback(async (query?: string) => {
@@ -65,10 +65,10 @@ export function TransactionProvider({ children }: TransactionProviderProps) {
   }, [fetchTransactions])
 
   return (
-    <TransactionContext.Provider
+    <TransactionsContext.Provider
       value={{ transactions, fetchTransactions, createTransaction }}
     >
       {children}
-    </TransactionContext.Provider>
+    </TransactionsContext.Provider>
   )
 }

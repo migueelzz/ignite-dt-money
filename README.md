@@ -6,9 +6,14 @@
 - React.js
 - Styled Components
 
-### libs
+### hooks
 
 - useContext
+- useCallback
+- useMemo
+
+### libs
+
 - Radix
 - React Hook Form
 - Zod
